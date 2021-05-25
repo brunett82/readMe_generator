@@ -54,3 +54,15 @@ const promptUser = () => {
       }
     ]);
   };
+
+  const generateReadMe = (answers) =>
+  ``;
+
+  const init = () => {
+    promptUser()
+      .then((answers) => writeFileAsync('README.md', generateHTML(answers)))
+      .then(() => console.log('Success! ReadMe Generated!'))
+      .catch((err) => console.error(err));
+  };
+  
+  init();
