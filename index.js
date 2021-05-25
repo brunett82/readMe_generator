@@ -60,7 +60,7 @@ const promptUser = () => {
 
   const init = () => {
     promptUser()
-      .then((answers) => writeFileAsync('README.md', generateHTML(answers)))
+      .then((answers) => writeFileAsync('README.md', generateReadMe(answers)))
       .then(() => console.log('Success! ReadMe Generated!'))
       .catch((err) => console.error(err));
   };
