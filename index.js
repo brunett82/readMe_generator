@@ -56,7 +56,32 @@ const promptUser = () => {
   };
 
   const generateReadMe = (answers) =>
-  ``;
+  `# ${answers.title}
+  ![Project license](https://img.shields.io/badge/license-${answers.license}-brightgreen) 
+  \n
+  ## Project Description
+  ${answers.description}
+  \n
+  ## Table of Contents
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contributions](#Contributions)
+  * [Test](#Test)
+  * [Questions](#Questions)
+  * [Licence](#Licence)
+  \n
+  ## Installation\n${answers.install}
+  \n
+  ## Purpose\n${answers.purpose}
+  \n
+  ## Contributions\n${answers.developers}
+  \n
+  ## Test\n${answers.testing}
+  \n
+  ## Contact for Questions:
+  ##### GitHub UserName: ${answers.profile} \n
+  ##### Email: ${answers.email}
+  \n`;
 
   const init = () => {
     promptUser()
