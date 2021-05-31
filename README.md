@@ -8,5 +8,15 @@ To use the README Generator first run npm install in the terminal to install the
 
 ## Usage Demo
 
-/Users/rb3/Desktop/Bootcamp/readMe_generator/assets/Hnet.com-image.gif
+![assets](assets/Hnet.com-image.gif)
+
+## Contributor
+
+Rob Brunett
+
+## Questions
+
+rob.brunett3@gmail.com
+
+https://github.com/brunett82
 
